@@ -13,7 +13,7 @@
                 </li>
                 <ul>
                     <li>
-                        <a href="">Buscador con Número de control</a>
+                        <a href="./ndc.php">Buscador con Número de control</a>
                     </li>
                 </ul>
             </ul>
