@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="min-height: 100%; position: relative;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
     <title>Titulo</title>
 </head>
-<body>
+<body style="margin: 0; margin-bottom: 40px;">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #004152;">
             <div class="container-fluid">
