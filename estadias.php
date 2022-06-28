@@ -74,71 +74,48 @@
                 <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
         </div>
 
-        <div>
-            <div style="margin-top: 10px;">
-                <h4>Datos personales</h4>
+        <h4 class="mt-4">DATOS PERSONALES.</h4>
+        <!--PRIMERA FILA-->
+        <div class="row">
+            <div class="col">
+                <label for="lastNameP">Apellido Paterno: </label>
+                <input class="form-control" id="lastNameP" name="lastNameP" type="text">
             </div>
-            <div style="margin-top: 10px;">
-
-                <span style="margin-left: 10px ;">
-                    <strong>
-                        Apellido Paterno
-                    </strong>
-                </span>
-
-                <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
-                    <strong>
-                        Apellido Materno
-                    </strong>
-                </span>
-
-                <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
-                    <strong>
-                        Nombre(s)
-                    </strong>
-                </span>
-
-                <input type="text" style="width: 200px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
-                    <strong>
-                        Sexo
-                    </strong>
-                </span>
-
-                <select name="sexo" style="width: 120px; height: 27px ; margin-left: 10px ;">
+            <div class="col">
+                <label for="lastNameM">Apellido Materno: </label>
+                <input id="lastNameM" class="form-control" name="lastNameM" type="text">
+            </div>
+            <div class="col">
+                <label for="name">Nombre(s): </label>
+                <input id="name" class="form-control" name="name" type="text">
+            </div>
+            <div class="col-2">
+                <label for="sex">Sexo: </label>
+                <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
                         Hombre
                     </option>
                     <option value="Mujer">
                         Mujer
                     </option>
+                    <option value="Otro">
+                        Otro
+                    </option>
                 </select>
             </div>
         </div>
-        
-        <div style="margin-top: 20px;">
 
-                <span style="margin-left: 10px ;">
-                    <strong>
-                        Calle
-                    </strong>
-                </span>
-
-                <input type="text" style="width: 300px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
-                    <strong>
-                        Colonia
-                    </strong>
-                </span>
-
-                <input type="text" style="width: 300px; height: 25px ; margin-left: 10px ;">
-    </div>
+        <!--SEGUNDA FILA-->
+        <div class="row mt-4">
+            <div class="col-4">
+                <label class="col-sm-2 col-form-label" for="street">Calle* </label>
+                <input class="form-control" id="street" name="street" type="text">
+            </div>
+            <div class="col-4">
+                <label class="col-sm-2 col-form-label" for="colonia">Colonia* </label>  
+                <input class="form-control" id="colonia" name="colonia" type="text">
+            </div>
+        </div>
 </div>
 
 <?php include("resources/views/footer.php")?>
