@@ -1,6 +1,6 @@
 <?php include("resources/views/header.php")?>
 
-<div style="margin-top: 70px; margin-left: 40px;">
+<div class="my-5" style="margin-left: 40px;">
     <div>
         <div>
             <h1>Número de control</h1>
