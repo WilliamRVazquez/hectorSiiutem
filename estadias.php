@@ -47,50 +47,71 @@
             </div>
         </div>
 
-        <div class="d-flex" style="margin-top: 10px;">
-
-                <span style="margin-left: 150px ;">
+        <!--PRIMERA FILA-->
+        <div class="row mt-2">
+            <div class="col-3">
+                <label for="fecha">
                     <strong>
                         Fecha
                     </strong>
-                </span>
-
-                <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
+                </label>
+                <input type="text" class="form-control" id="fecha" name="fecha">
+            </div>
+            
+            <div class="col-3">
+                <label for="Periodo">
                     <strong>
                         Periodo de Estadia
                     </strong>
-                </span>
-
-                <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
-
-                <span style="margin-left: 100px ;">
+                </label>
+                <input type="text" class="form-control" id="periodo" name="periodo">
+            </div>
+            
+            <div class="col-3">
+                <label for="generacion">
                     <strong>
                         Generación
-                    </strong>       
-                </span>
-
-                <input type="text" style="width: 120px; height: 25px ; margin-left: 10px ;">
+                    </strong>
+                </label>
+                <input type="text" class="form-control" id="generacion" name="generacion">
+            </div>        
         </div>
 
-        <h4 class="mt-4">DATOS PERSONALES.</h4>
-        <!--PRIMERA FILA-->
+        <!--SEGUNDA FILA-->
+        <h4 class="mt-2">
+            DATOS PERSONALES
+        </h4>
         <div class="row">
-            <div class="col">
-                <label for="lastNameP">Apellido Paterno: </label>
+            <div class="col-3">
+                <label for="lastNameP">
+                    <strong>
+                        Apellido Paterno 
+                    </strong>
+                </label>
                 <input class="form-control" id="lastNameP" name="lastNameP" type="text">
             </div>
-            <div class="col">
-                <label for="lastNameM">Apellido Materno: </label>
+            <div class="col-3">
+                <label for="lastNameM">
+                    <strong>
+                        Apellido Materno 
+                    </strong>
+                </label>
                 <input id="lastNameM" class="form-control" name="lastNameM" type="text">
             </div>
-            <div class="col">
-                <label for="name">Nombre(s): </label>
+            <div class="col-3">
+                <label for="name">
+                    <strong>
+                        Nombre(s)
+                    </strong>
+                </label>
                 <input id="name" class="form-control" name="name" type="text">
             </div>
             <div class="col-2">
-                <label for="sex">Sexo: </label>
+                <label for="sex">
+                    <strong>
+                        Sexo 
+                    </strong>
+                </label>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
                         Hombre
@@ -105,16 +126,136 @@
             </div>
         </div>
 
-        <!--SEGUNDA FILA-->
-        <div class="row mt-4">
+        <!--TERCERA FILA-->
+        <div class="row mt-2">
             <div class="col-4">
-                <label class="col-sm-2 col-form-label" for="street">Calle* </label>
+                <label for="calle">
+                    <strong>
+                        Calle 
+                    </strong>
+                </label>
                 <input class="form-control" id="street" name="street" type="text">
             </div>
             <div class="col-4">
-                <label class="col-sm-2 col-form-label" for="colonia">Colonia* </label>  
+                <label for="colonia">
+                    <strong>
+                        Colonia 
+                    </strong>
+                </label>  
                 <input class="form-control" id="colonia" name="colonia" type="text">
             </div>
+        </div>
+
+        <!--CUARTA FILA-->
+        <div class="row mt-2">
+            <div class="col-3">
+                <label for="municipio">
+                    <strong>
+                        Municipio
+                    </strong>
+                </label>
+                <input type="text" class="form-control" id="municipio" name="municipio">
+            </div>
+            <div class="col-3">
+                <label for="edo">
+                    <strong>
+                        Edo.
+                    </strong>
+                </label>
+                <input class="form-control" id="edo" name="edo" type="text">
+            </div>
+            <div class="col-3">
+                <label for="codigopostal">
+                    <strong>
+                        C.P.
+                    </strong>
+                </label>
+                <input class="form-control" id="codigopostal" name="codigopostal" type="text">
+            </div>
+        </div>
+
+        <!--QUINTA FILA-->
+        <div class="row mt-2">
+            <div class="col-3">
+                <label for="email">
+                    <strong>
+                        E-mail
+                    </strong>
+                </label>
+                <input type="text" class="form-control" name="email" id="email">
+            </div>
+            <div class="col-3">
+                <label for="facebook">
+                    <strong>
+                        Facebook
+                    </strong>
+                </label>
+                <input type="text" class="form-control" name="facebook" id="facebook">
+            </div>
+            <div class="col-3">
+                <label for="nacimiento">
+                    <strong>
+                        Fecha de nacimiento
+                    </strong>
+                </label>
+                <input type="date" class="form-control" name="nacimiento" id="nacimiento">
+            </div>
+        </div>
+
+        <!--SEXTA FILA-->
+        <h5 class="mt-2">
+                Teléfonos
+            </h5>
+        <div class="row mt-2">
+            <div class="col-3">
+                <label for="celular">
+                    <strong>
+                        Celular
+                    </strong>
+                </label>
+                <input type="text" class="form-control" name="celular" id="celular">
+            </div>
+            <div class="col-3">
+                <label for="casa">
+                    <strong>
+                        Casa
+                    </strong>
+                </label>
+                <input type="text" class="form-control" name="casa" id="casa">
+            </div>
+            <div class="col-3">
+                <label for="recados">
+                    <strong>
+                        Recados
+                    </strong>
+                </label>
+                <input type="text" class="form-control" name="recados" id="recados">
+            </div>
+        </div>
+
+        <!--SEPTIMA FILA-->
+        <h5 class="mt-2">
+            Al concluir la estadia deseas      
+        </h5>
+            <div class="row mt-2">
+                <div class="col-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Incorporarte al mercado laboral
+                    </label>
+                </div>
+                <div class="col-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Continuar estudiando
+                    </label>
+                </div>
+                <div class="col-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Trabajar y estudiar 
+                    </label>
+                </div>
         </div>
 </div>
 
