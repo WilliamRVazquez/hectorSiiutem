@@ -1,12 +1,14 @@
 <?php include("resources/views/header.php")?>
 
-<div  class="my-4" style="margin-left: 20px;">
+<div  class="my-5" style="margin-left: 20px;">
     <div>
         <div>
             <h3>
                 Datos antes de las estadias
             </h3>
         </div>
+        
+        <!--
         <div class="row">
             <div class="col-xs-4 col-sm-2">
                 <img src="resources/image/user.jpg" style="width: 124px; height: 166px ;">
@@ -46,6 +48,7 @@
 
             </div>
         </div>
+        -->
 
         <!--PRIMERA FILA-->
         <div class="row mt-2">
