@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
     <title>SIIUTeM</title>
 </head>
-<body style="margin: 0; margin-bottom: 40px;">
+<body style="position:relative; min-height:100vh; padding-bottom: 3em;">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #004152;">
             <div class="container-fluid">
