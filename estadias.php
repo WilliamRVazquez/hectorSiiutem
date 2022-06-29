@@ -3,9 +3,9 @@
 <div  class="my-5" style="margin-left: 20px;">
     <div>
         <div>
-            <h3>
+            <h2 class="card-title">
                 Datos antes de las estadias
-            </h3>
+            </h2>
         </div>
         
         <!--
@@ -81,41 +81,41 @@
         </div>
 
         <!--SEGUNDA FILA-->
-        <h4 class="mt-2">
+        <h4 class="mt-2 card-title">
             DATOS PERSONALES
         </h4>
         <div class="row">
             <div class="col-3">
-                <label for="lastNameP">
+                <label for="apellidop">
                     <strong>
                         Apellido Paterno 
                     </strong>
                 </label>
-                <input class="form-control" id="lastNameP" name="lastNameP" type="text">
+                <input class="form-control" id="apellidop" name="apellidop" type="text">
             </div>
             <div class="col-3">
-                <label for="lastNameM">
+                <label for="apellidom">
                     <strong>
                         Apellido Materno 
                     </strong>
                 </label>
-                <input id="lastNameM" class="form-control" name="lastNameM" type="text">
+                <input id="apellidom" class="form-control" name="apellidom" type="text">
             </div>
             <div class="col-3">
-                <label for="name">
+                <label for="nombre">
                     <strong>
                         Nombre(s)
                     </strong>
                 </label>
-                <input id="name" class="form-control" name="name" type="text">
+                <input id="nombre" class="form-control" name="nombre" type="text">
             </div>
             <div class="col-2">
-                <label for="sex">
+                <label for="sexo">
                     <strong>
                         Sexo 
                     </strong>
                 </label>
-                <select class="form-select" id="sex" name="sex">
+                <select class="form-select" id="sexo" name="sexo">
                     <option value="Hombre">
                         Hombre
                     </option>
@@ -185,7 +185,7 @@
                         E-mail
                     </strong>
                 </label>
-                <input type="text" class="form-control" name="email" id="email">
+                <input type="email" class="form-control" name="email" id="email">
             </div>
             <div class="col-3">
                 <label for="facebook">
@@ -206,7 +206,7 @@
         </div>
 
         <!--SEXTA FILA-->
-        <h5 class="mt-2">
+        <h5 class="mt-2 card-title">
                 Teléfonos
             </h5>
         <div class="row mt-2">
@@ -216,7 +216,7 @@
                         Celular
                     </strong>
                 </label>
-                <input type="text" class="form-control" name="celular" id="celular">
+                <input type="tel" class="form-control" name="celular" id="celular">
             </div>
             <div class="col-3">
                 <label for="casa">
@@ -224,7 +224,7 @@
                         Casa
                     </strong>
                 </label>
-                <input type="text" class="form-control" name="casa" id="casa">
+                <input type="tel" class="form-control" name="casa" id="casa">
             </div>
             <div class="col-3">
                 <label for="recados">
@@ -232,12 +232,12 @@
                         Recados
                     </strong>
                 </label>
-                <input type="text" class="form-control" name="recados" id="recados">
+                <input type="tel" class="form-control" name="recados" id="recados">
             </div>
         </div>
 
         <!--SEPTIMA FILA-->
-        <h5 class="mt-2">
+        <h5 class="mt-2 card-title">
             Al concluir la estadia deseas      
         </h5>
             <div class="row mt-2">
