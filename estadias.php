@@ -1,7 +1,6 @@
 <?php include("resources/views/header.php")?>
 
 <div  class="my-5" style="margin-left: 20px;">
-    <div>
         <div>
             <h2 class="card-title">
                 Datos antes de las estadias
