@@ -1,7 +1,6 @@
 <?php include("resources/views/header.php")?>
 
-<div  class="my-5" style="margin-left: 20px;">
-    <div>
+<div  class="my-5 mx-3">
         <div class="row">
             <div class="col-2">
                 <h2 class="card-title">
@@ -15,7 +14,7 @@
                         Fecha
                     </strong>
                 </label>
-                <input type="text" class="form-control" id="fecha" name="fecha">
+                <input type="date" class="form-control" id="fecha" name="fecha">
             </div>
         </div>
         
@@ -339,6 +338,12 @@
         <h3 class="mt-2 card-title">
             Datos de empleo actual
         </h3>
+
+        <span class="mt-2">
+            <strong>
+                (Nota: Se llenan los datos del empleo únicamente si seleccionaste la opción 1 y 2 en ESTATUS)
+            </strong>
+        </span>
 </div>
 
 <?php include("resources/views/footer.php")?>

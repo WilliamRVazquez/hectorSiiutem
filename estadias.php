@@ -1,6 +1,6 @@
 <?php include("resources/views/header.php")?>
 
-<div  class="my-5" style="margin-left: 20px;">
+<div  class="my-5 mx-3">
         <div>
             <h2 class="card-title">
                 Datos antes de las estadias
@@ -57,7 +57,7 @@
                         Fecha
                     </strong>
                 </label>
-                <input type="text" class="form-control" id="fecha" name="fecha">
+                <input type="date" class="form-control" id="fecha" name="fecha">
             </div>
             
             <div class="col-3">
