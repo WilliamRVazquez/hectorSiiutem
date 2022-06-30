@@ -83,7 +83,7 @@
         <h4 class="mt-2 card-title">
             DATOS PERSONALES
         </h4>
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-3">
                 <label for="apellidop">
                     <strong>
