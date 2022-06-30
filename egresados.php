@@ -1,11 +1,12 @@
 <?php include("resources/views/header.php")?>
 
 <div  class="my-5 mx-3">
+    <form action="">
         <div class="row">
-            <div class="col-2">
-                <h2 class="card-title">
+            <div class="col-3">
+                <h3 class="text-uppercase">
                     Datos de egresados
-                </h2>
+                </h3>
             </div>
 
             <div class="col-2" style="margin-left: 313px;">
@@ -61,7 +62,7 @@
         -->
 
         <!--PRIMERA FILA-->
-        <h4 class="mt-2 card-title">
+        <h4 class="mt-2 text-uppercase">
             Nombre
         </h4>
         <div class="row mt-2">
@@ -113,7 +114,7 @@
         </div>
 
         <!--SEGUNDA FILA-->
-        <h4 class="mt-2 card-title">
+        <h4 class="mt-2 text-uppercase">
             Domicilio
         </h4>
         <div class="row">
@@ -192,7 +193,7 @@
         </div>
 
         <!--QUINTA FILA-->
-        <h4 class="mt-2 card-title">
+        <h4 class="mt-2 text-uppercase">
                 Teléfonos
         </h4>
         <div class="row mt-2">
@@ -239,7 +240,7 @@
         </div>
 
         <!--SEXTA FILA-->
-        <h4 class="mt-2 card-title">
+        <h4 class="mt-2 text-uppercase">
             Estatus    
         </h4>
         <span class="mt-2">
@@ -250,31 +251,31 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     1.- Trabajas
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     2.- Trabajas y estudias
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     3.- Estudias
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     4.- No trabajas
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     5.- Hogar
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
 
@@ -312,30 +313,30 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Maestría
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Doctorado
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     En el extranjero
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Otros estudios
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
 
         <!--DECIMA FILA-->
-        <h3 class="mt-2 card-title">
+        <h3 class="mt-2 text-uppercase">
             Datos de empleo actual
         </h3>
 
@@ -394,7 +395,7 @@
         </div>
 
         <!--ONCEAVA FILA-->
-        <h4 class="mt-2 card-title">
+        <h4 class="mt-2 text-uppercase">
             Actualización de datos
         </h4>
         <span class="mt-2">
@@ -407,31 +408,31 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Por estadía
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     3 meses
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     6 meses
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     1 año
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Más de 1 año
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
         <span class="mt-2">
@@ -444,25 +445,25 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Zona de influencia (Manzanillo)
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Interior del Estado
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Fuera del estado
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     En el Extranjero
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
         <span class="mt-2">
@@ -475,25 +476,25 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Pública
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Privada
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Propia
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Paraestatal
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
         <span class="mt-2">
@@ -506,25 +507,25 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Micro (0-20)
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Pequeña (21-50)
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Mediana (51-100)
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Macro (+ 100)
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
         <span class="mt-2">
@@ -537,43 +538,43 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     $2.500
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     $4.000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     $6.000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     $8.000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     $10.000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     $12.000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     (+) $12,000
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
         <span class="mt-2">
@@ -586,49 +587,49 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Operario
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Técnico General
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Técnico Especializado
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Administrativo
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Supervisor
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Gerente
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Director
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     Auto empleo
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <span>
@@ -651,13 +652,13 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Si
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     No
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
 
@@ -672,15 +673,16 @@
                 <label class="form-check-label" for="flexRadioDefault1">
                     Si
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
             <div class="col-2">
                 <label class="form-check-label" for="flexRadioDefault1">
                     No
                 </label>
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
+                <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
+        </form>
 </div>
 
 <?php include("resources/views/footer.php")?>
