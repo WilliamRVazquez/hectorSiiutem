@@ -1,8 +1,9 @@
 <?php include("resources/views/header.php")?>
 <div  class="my-5 mx-3">
-<h2 class="text-center">Cuestionario para medir la satisfaccion de los Egresados  de la Universidad Tecnologica <br> 5A Licenciatura(Ingenierias y licenciaturas)</h2>
-
-<p class="text-center">Con el proposito de conocer la opinion de los egresados de la Universidad Tecnologica acerca de la atencion, <br> servicios y preparacion academica que recibieron de su permanencia en la institucion.</p>
+<div class="container">
+    <h2 class="text-center">Cuestionario para medir la satisfaccion de los Egresados  de la Universidad Tecnologica 5A Licenciatura(Ingenierias y licenciaturas).</h2>
+    <p class="text-center">Con el proposito de conocer la opinion de los egresados de la Universidad Tecnologica acerca de la atencion, servicios y preparacion academica que recibieron de su permanencia en la institucion.</p>
+</div>
 <br>
 <label for="universidad">   
 <strong>
@@ -55,7 +56,7 @@
   </div>
 </form>
 <br>
-<p class="text-center">Le agradecemos proporcione la informacion solicitada en este cuestionario que sera de caracter estrictamente confidencial. Señala con el numero tu nivel de satisfaccion de acuerdo a la siguiente escala de valores: Muy Bien MB=5; Bien B=4; Regular R=3; Mal M=2 y Pesimo P=1; o bien No Aplica NA=0. Favor de no dejar los espacios sin respuesta</p>
+<p class="text-center">Le agradecemos proporcione la informacion solicitada en este cuestionario que sera de caracter estrictamente confidencial. Señala con el numero tu nivel de satisfaccion de acuerdo a la siguiente escala de valores: <br>|| Muy Bien MB=5 || Bien B=4 || Regular R=3 || Mal M=2 || Pesimo P=1 || No Aplica NA=0 ||<br>Favor de no dejar los espacios sin respuesta</p>
 
 <table class="table">
       <thead>
