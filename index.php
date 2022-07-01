@@ -23,7 +23,7 @@
                 </li>
                 <ul>
                     <li>
-                        <a href="">Encusta de satisfaccion a la empresa.</a>
+                        <a href="./encuestaE.php">Encusta de satisfaccion a la empresa.</a>
                     </li>
                 </ul>
                 <li>
@@ -31,7 +31,7 @@
                 </li>
                 <ul>
                     <li>
-                        <a href="">Encusta de satisfaccion de la empresa.</a>
+                        <a href="./encuestaA.php">Encusta de satisfaccion de la empresa.</a>
                     </li>
                 </ul>
             </ul>
