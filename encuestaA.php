@@ -1,8 +1,8 @@
 <?php include("resources/views/header.php")?>
 <div  class="my-5 mx-3">
-<h2 class="text-center">Cuestionario para medir la satisfaccion de los Egresados  de la Universidad Tecnologica <br> 5A Licenciatura(Ingenierias y licenciaturas)</h2>
+<h1 class="text-center">Cuestionario para medir la satisfaccion de los empleadores cuentan con egresados<br> del nivel de licenciatura laborando en sus instalaciones</h1>
 
-<p class="text-center">Con el proposito de conocer la opinion de los egresados de la Universidad Tecnologica acerca de la atencion, <br> servicios y preparacion academica que recibieron de su permanencia en la institucion.</p>
+<p class="text-center">Con el proposito de conocer el nivel de satisfaccion de los servicios que los egresados de la Universidad <br>Tecnologica prestan en su empresa y de esta manera poder retroalimentar a la institucion e implementar <br> medidas correctivas en el proceso de enseñanza - aprendizaje de los alumnos</p>
 <br>
 <label for="universidad">   
 <strong>
@@ -26,7 +26,7 @@
   <div class="form-group row mt-2">
     <label for="inputPassword3" class="col-sm-2 col-form-label">
         <strong>
-             Nombre de la carrera que egresa:
+             Nombre del responsable:
         </strong> 
     </label>
     <div class="col-5">
@@ -53,9 +53,20 @@
       <input type="email" class="form-control" id="correo">
     </div>
   </div>
+  <div class="form-group row mt-2">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">
+        <strong>
+             Nombre de las carreras de los egresados de licenciatura que laboran en su empresa
+        </strong> 
+    </label>
+    <div class="col-5">
+      <input type="text" class="form-control" id="carreras">
+    </div>
+  </div>
+ 
 </form>
 <br>
-<p class="text-center">Le agradecemos proporcione la informacion solicitada en este cuestionario que sera de caracter estrictamente confidencial. Señala con el numero tu nivel de satisfaccion de acuerdo a la siguiente escala de valores: Muy Bien MB=5; Bien B=4; Regular R=3; Mal M=2 y Pesimo P=1; o bien No Aplica NA=0. Favor de no dejar los espacios sin respuesta</p>
+<p class="text-center">Le agradecemos proporcio    ne la informacion solicitada en este cuestionario que sera de caracter estrictamente confidencial. Señala con el numero tu nivel de satisfaccion de acuerdo a la siguiente escala de valores: Muy Bien MB=5; Bien B=4; Regular R=3; Mal M=2 y Pesimo P=1; o bien No Aplica NA=0. Favor de no dejar los espacios sin respuesta</p>
 
 <table class="table">
       <thead>
@@ -70,7 +81,7 @@
         <tr class="active">
           <th scope="row">1</th>
           
-          <td>¿La infraestructura fisica con que fue dotada la Universidad Tecnologica, le pareció?</td>
+          <td>¿Comó considera los conocimientos con los que cuenta el egresado de licenciatura para proponer alternativas de solucion a los problemas que se le consultan de acuerdo a la carrera que curso, funcion qu desempeña y/o al puesto?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -96,7 +107,7 @@
         </tr>
         <th scope="row">2</th>
           
-          <td>¿El equipamiento de los laboratorios y talleres le parecio?</td>
+          <td>¿El conocimiento y habilidad por parte del egresado de Licenciatura, en el manejo del equipo, maquinaria y herramientas de trabajo para desempeñar sus actividades lo considera?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -122,7 +133,7 @@
         </tr>
         <th scope="row">3</th>
           
-          <td>¿Los servicios prestados en la Bolsa de trabajo de la Universidad como los considera?</td>
+          <td>¿Comó valora usted el trabajo desempañado por el egresado de Licenciatura en cuanto a calidad y rapidez en los proyectos asignados?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -148,7 +159,7 @@
         </tr>
         <th scope="row">4</th>
           
-          <td>¿El nivel de conocimiento y dominio de los temas mostrados por sus profesores al momento de impartirles la catedra le pareció?</td>
+          <td>La creatividad e innovacion para proponer mejoras a los procesos de la empresa por parte del egresado de Licenciatura, los considera:</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -174,7 +185,7 @@
         </tr>
         <th scope="row">5</th>
           
-          <td>¿El nivel de conocimiento y dominio por parte de los profesores en el manejo de los equipos que se encuentran en los laboratorios y talleres al momento de realizar las practicas que su carrera requiere, lo considerara?</td>
+          <td>La capacidad y disposicion con que cuenta el egresado de Licenciatura para trabajar en equipo, los valora:</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -200,7 +211,7 @@
         </tr>
         <th scope="row">6</th>
           
-          <td>¿La experiencia práctica adquirida por parte suya, derivado de las vistas, practicas en las empresas, las considera?</td>
+          <td>¿El grado del egresado de Licenciatura para poder alcanzar un mejor puesto en su empresa de acuerdo a su nivel academico?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -226,7 +237,7 @@
         </tr>
         <th scope="row">7</th>
           
-          <td>¿Como considera la preparacion academica adquirida?</td>
+          <td>¿Considera usted que este profesionista cumple con los requerimientos del sector productivo y social?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
@@ -252,33 +263,7 @@
         </tr>
         <th scope="row">8</th>
           
-          <td>Considera que la estadia complemento su preparacion para el mercado laboral?</td>
-          <td>
-                <select class="form-select" id="sex" name="sex">
-                    <option value="Hombre">
-                        MB
-                    </option>
-                    <option value="Mujer">
-                        B
-                    </option>
-                    <option value="Otro">
-                       R
-                    </option>
-                    <option value="Mujer">
-                        M
-                    </option>
-                    <option value="Mujer">
-                       P
-                    </option>
-                    <option value="Mujer">
-                       NA
-                    </option>
-                </select>
-            </div></td>
-        </tr>
-        <th scope="row">9</th>
-          
-          <td>¿Comó califica la Continuidad de Estudios nivel 5A(licenciaturas e ingenierias)?</td>
+          <td>En general ¿Comó califica el trabajo que desempeña el egresado de licenciatura, en su empresa?</td>
           <td>
                 <select class="form-select" id="sex" name="sex">
                     <option value="Hombre">
