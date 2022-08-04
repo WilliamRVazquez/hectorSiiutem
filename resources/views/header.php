@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/resources/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>SIIUTeM</title>
 </head>
 <body style="position:relative; min-height:100vh; padding-bottom: 3em;">
@@ -53,8 +53,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="userDropdown" role="button"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="img-profile rounded-circle"
-                        src="/resources/image/navus.jpg">
+                        <img class="img-profile rounded-circle"src="/resources/image/navus.jpg">
                         <span class="mr-2 d-none d-lg-inline text-gray-600 small">Hector Xav</span>
                     </a>
                     <!-- Dropdown - User Information -->

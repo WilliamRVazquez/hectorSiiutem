@@ -1,21 +1,16 @@
-<?php include("resources/views/header.php")?>
+<?php include("resources/views/header.php");
+require("conexion.php");
+$sexo = $con->query("SELECT  pk_sexo, descripcion FROM `sexo`");
+$sel = $con->query("SELECT `periodo`,`sexo` FROM estadias");
+?>
 
 <div  class="my-5 mx-3">
-    <form action="">
+    <form action="resEncuestaE.php"  autocomplete="off"  method="POST"  enctype="multipart/form-data">
         <div class="row">
             <div class="col-3">
                 <h3 class="text-uppercase">
                     Datos de egresados
                 </h3>
-            </div>
-
-            <div class="col-2" style="margin-left: 313px;">
-                <label for="fecha">
-                    <strong>
-                        Fecha
-                    </strong>
-                </label>
-                <input type="date" class="form-control" id="fecha" name="fecha">
             </div>
         </div>
         
@@ -94,21 +89,18 @@
             </div>
 
             <div class="col-2">
-                <label for="sex">
+                <label for="sexo">
                     <strong>
                         Sexo 
                     </strong>
                 </label>
-                <select class="form-select" id="sex" name="sex">
-                    <option value="Hombre">
-                        Hombre
-                    </option>
-                    <option value="Mujer">
-                        Mujer
-                    </option>
-                    <option value="Otro">
-                        Otro
-                    </option>
+                <select name="sexo" class="form-select  mb-3" aria-label="Default select example">
+                        <option  selected></option>
+                        <?php while($t = $sexo->fetch_assoc()){ ?>
+                            <option   value="<?php echo $t['descripcion'] ?>">
+                            <?php echo $t['descripcion'] ?>
+                        </option>
+                        <?php } ?> 
                 </select>
             </div>
         </div>
@@ -124,7 +116,7 @@
                         Calle y número
                     </strong>
                 </label>
-                <input class="form-control" id="calle" name="lastNameP" type="calle">
+                <input class="form-control" id="calle" name="calle" type="text">
             </div>
             <div class="col-3">
                 <label for="colonia">
@@ -283,24 +275,29 @@
         <!--SEPTIMA FILA-->
         <div class="row mt-3">
             <div class="col-2">
+            <label for="titulado">
                 <span>
-                    ¿Estás titulado?
+                    ¿Estás titulado?       
                 </span>
+            </label>
             </div>
             <div class="col-2">
-                <input type="text" class="form-control" name="respuesta" id="respuesta">
+                <input type="text" class="form-control" name="titulado" id="titulado">
             </div>
         </div>
 
         <!--OCTAVA FILA-->
         <div class="row mt-3">
             <div class="col-4">
+            <label for="escuela">  
                 <span>
                     En caso de continuar estudiando, escribe el nombre de la escuela:
                 </span>
+            </label>
             </div>
             <div class="col-2">
-                <input type="text" class="form-control" name="respuesta2" id="respuesta2" >
+                    <input type="text" class="form-control" name="escuela" id="escuela" >
+
             </div>
         </div>
 
@@ -633,7 +630,9 @@
             </div>
             <div class="col-2">
                 <span>
-                    Otro
+                    <label for="otro">
+                        Otro
+                    </label>
                 </span>
             </div>
             <div class="col-2">
@@ -682,8 +681,19 @@
                 <input class="form-check-input rounded-circle" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1" style="margin-left: 5px;">
             </div>
         </div>
-        </form>
+
+        <div class="form-group mb-3 mt-2" >
+            <div class="g-recapcha" data-sitekey="6LdMaEkhAAAAAIj1YyY1729fAMK8r0YL1ICkrqFH">
+            </div>
+        </div>
+
+        <div class="form-group mb-3 mt-2" >
+            <input type="submit" value="Guardar"  class="btn btn-info">
+        </div>
+    </form>
 </div>
+
+
 
 <?php include("resources/views/footer.php")?>
 

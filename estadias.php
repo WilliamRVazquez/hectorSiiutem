@@ -1,6 +1,11 @@
-<?php include("resources/views/header.php")?>
+<?php include("resources/views/header.php");
+require("conexion.php");
+$sexo = $con->query("SELECT  pk_sexo, descripcion FROM `sexo`");
+$sel = $con->query("SELECT `periodo`,`sexo` FROM estadias");
+?>
 
 <div  class="my-5 mx-3">
+    <form action="resEncuestaA.php"  autocomplete="off"  method="POST"  enctype="multipart/form-data">
         <div>
             <h2 class="text-uppercase">
                 Datos antes de las estadias
@@ -51,17 +56,9 @@
 
         <!--PRIMERA FILA-->
         <div class="row mt-2">
+
             <div class="col-3">
-                <label for="fecha">
-                    <strong>
-                        Fecha
-                    </strong>
-                </label>
-                <input type="date" class="form-control" id="fecha" name="fecha">
-            </div>
-            
-            <div class="col-3">
-                <label for="Periodo">
+                <label for="periodo">
                     <strong>
                         Periodo de Estadia
                     </strong>
@@ -90,7 +87,7 @@
                         Apellido Paterno 
                     </strong>
                 </label>
-                <input class="form-control" id="apellidop" name="apellidop" type="text">
+                <input type="text" class="form-control" id="apellidop" name="apellidop">
             </div>
             <div class="col-3">
                 <label for="apellidom">
@@ -98,7 +95,7 @@
                         Apellido Materno 
                     </strong>
                 </label>
-                <input id="apellidom" class="form-control" name="apellidom" type="text">
+                <input type="text" class="form-control" id="apellidom" name="apellidom">
             </div>
             <div class="col-3">
                 <label for="nombre">
@@ -106,7 +103,7 @@
                         Nombre(s)
                     </strong>
                 </label>
-                <input id="nombre" class="form-control" name="nombre" type="text">
+                <input type="text" class="form-control" id="nombres" name="nombres">
             </div>
             <div class="col-2">
                 <label for="sexo">
@@ -114,16 +111,13 @@
                         Sexo 
                     </strong>
                 </label>
-                <select class="form-select" id="sexo" name="sexo">
-                    <option value="Hombre">
-                        Hombre
-                    </option>
-                    <option value="Mujer">
-                        Mujer
-                    </option>
-                    <option value="Otro">
-                        Otro
-                    </option>
+                <select name="sexo" class="form-select  mb-3" aria-label="Default select example">
+                        <option  selected></option>
+                        <?php while($t = $sexo->fetch_assoc()){ ?>
+                            <option   value="<?php echo $t['descripcion'] ?>">
+                            <?php echo $t['descripcion'] ?>
+                        </option>
+                        <?php } ?> 
                 </select>
             </div>
         </div>
@@ -136,7 +130,7 @@
                         Calle 
                     </strong>
                 </label>
-                <input class="form-control" id="street" name="street" type="text">
+                <input class="form-control" id="calle" name="calle" type="text">
             </div>
             <div class="col-4">
                 <label for="colonia">
@@ -258,7 +252,11 @@
                         Trabajar y estudiar 
                     </label>
                 </div>
+                <div class="form-group mb-3 mt-2" >
+                    <input type="submit" value="Guardar"  class="btn btn-info">
+                </div>
         </div>
+    </form>
 </div>
 
 <?php include("resources/views/footer.php")?>

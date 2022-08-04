@@ -1,5 +1,4 @@
 <?php include("resources/views/header.php")?>
-
 <div class="my-4" style="margin-left: 20px;">
     <div >
         <div >
@@ -23,7 +22,7 @@
                 </li>
                 <ul>
                     <li>
-                        <a href="./encuestaE.php">Encusta de satisfaccion a la empresa.</a>
+                        <a href="./encuestaempleadores.php">Encuesta de satisfaccion de Empleadores.</a>
                     </li>
                 </ul>
                 <li>
@@ -31,12 +30,11 @@
                 </li>
                 <ul>
                     <li>
-                        <a href="./encuestaA.php">Encusta de satisfaccion de la empresa.</a>
+                        <a href="./encuestaegresados.php">Encuesta de satisfaccion de Egresados.</a>
                     </li>
                 </ul>
             </ul>
         </div>
     </div>
 </div>
-
 <?php include("resources/views/footer.php")?>
